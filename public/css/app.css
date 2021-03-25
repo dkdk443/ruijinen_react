@@ -87,6 +87,65 @@
   margin-left: 12px;
 }
 
+.questions {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.question {
+  display: block;
+  margin: 20px;
+  padding: 12px;
+  font-size: 22px;
+  border-radius: 12px;
+}
+.question__index {
+  font-weight: 800;
+  border-bottom: 5px solid #f4c14e;
+  border-image-slice: 1;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.answers {
+  margin-bottom: 40px;
+}
+
+.answer {
+  cursor: pointer;
+  padding: 12px;
+  margin: 20px;
+  border-radius: 12px;
+  font-weight: 400;
+}
+.answer:active {
+  transform: translateY(2px);
+  opacity: 0.8;
+  box-shadow: none;
+}
+.answer:nth-child(even) {
+  background-color: #707070;
+  color: white;
+}
+.answer:nth-child(odd) {
+  background-color: white;
+  border: #707070 solid 2px;
+}
+
+.gage {
+  background-color: #f2f2f2;
+}
+.gage span {
+  display: flex;
+  background-color: #f4c14e;
+  text-align: end;
+  height: 20px;
+  transition: width 0.5s;
+}
+
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 const Start = () => {
     return (
         <>
@@ -12,7 +13,7 @@ const Start = () => {
                     <h2>人間関係を円滑にする</h2>
                     <h1>類人猿分類</h1>
                     <div className="buttons">
-                        <button className="button button--start">診断スタート</button>
+                        <Link to="/questions"><button className="button button--start">診断スタート</button></Link>
                         <button className="button button--toFriends">友だちリスト</button>
                         <button className="button button--addFriends">友だち追加</button>
                     </div>

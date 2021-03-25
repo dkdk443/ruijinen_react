@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Friends from './Friends';
 import Start from './Start';
+import Questions from './questions';
 
 
 function App() {
@@ -13,8 +14,9 @@ function App() {
             <BrowserRouter>
                 <>
                     <Switch>
-                        <Route path="/" component={Start} />
-                        <Route path="/friends" component={Friends} />
+                        <Route path="/" exact component={Start} />
+                        <Route path="/questions" exact component={Questions} />
+                        <Route path="/friends" exact component={Friends} />
                     </Switch>
                 </>
             </BrowserRouter>
