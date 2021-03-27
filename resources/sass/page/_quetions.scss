@@ -11,10 +11,11 @@
     padding: 12px;
     font-size: 22px;
     border-radius: 12px;
+    min-width: 240px;
 
     &__index {
         font-weight: 800;
-        border-bottom: 5px solid #f4c14e;
+        border-bottom: 5px solid $main-color;
         border-image-slice: 1;
         display: inline-block;
         margin-bottom: 12px;

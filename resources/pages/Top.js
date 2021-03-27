@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Friends from './Friends';
 import Start from './Start';
 import Questions from './questions';
+import TypeResult from './TypeResult';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
                         <Route path="/" exact component={Start} />
                         <Route path="/questions" exact component={Questions} />
                         <Route path="/friends" exact component={Friends} />
+                        <Route path="/result" exact component={TypeResult}></Route>
                     </Switch>
                 </>
             </BrowserRouter>

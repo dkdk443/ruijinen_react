@@ -2113,8 +2113,9 @@ var Start = function Start() {
           className: "buttons",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
             to: "/questions",
+            className: "button button--start",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-              className: "button button--start",
+              className: "",
               children: "\u8A3A\u65AD\u30B9\u30BF\u30FC\u30C8"
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
@@ -2148,11 +2149,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var _js_components_mainHeader_MainHeader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../js/components/mainHeader/MainHeader */ "./resources/js/components/mainHeader/MainHeader.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _Friends__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Friends */ "./resources/pages/Friends.js");
-/* harmony import */ var _Start__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Start */ "./resources/pages/Start.js");
-/* harmony import */ var _questions__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./questions */ "./resources/pages/questions.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
+/* harmony import */ var _Friends__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Friends */ "./resources/pages/Friends.js");
+/* harmony import */ var _Start__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Start */ "./resources/pages/Start.js");
+/* harmony import */ var _questions__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./questions */ "./resources/pages/questions.js");
+/* harmony import */ var _TypeResult__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./TypeResult */ "./resources/pages/TypeResult.js");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
 
 
 
@@ -2167,21 +2171,25 @@ __webpack_require__.r(__webpack_exports__);
 
 function App() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.Fragment, {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.BrowserRouter, {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.BrowserRouter, {
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.Fragment, {
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Switch, {
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Route, {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_9__.Switch, {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_9__.Route, {
             path: "/",
             exact: true,
-            component: _Start__WEBPACK_IMPORTED_MODULE_5__.default
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Route, {
+            component: _Start__WEBPACK_IMPORTED_MODULE_4__.default
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_9__.Route, {
             path: "/questions",
             exact: true,
-            component: _questions__WEBPACK_IMPORTED_MODULE_6__.default
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Route, {
+            component: _questions__WEBPACK_IMPORTED_MODULE_5__.default
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_9__.Route, {
             path: "/friends",
             exact: true,
-            component: _Friends__WEBPACK_IMPORTED_MODULE_4__.default
+            component: _Friends__WEBPACK_IMPORTED_MODULE_3__.default
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_9__.Route, {
+            path: "/result",
+            exact: true,
+            component: _TypeResult__WEBPACK_IMPORTED_MODULE_6__.default
           })]
         })
       })
@@ -2194,6 +2202,280 @@ function App() {
 if (document.getElementById('root')) {
   react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(App, {}), document.getElementById('root'));
 }
+
+/***/ }),
+
+/***/ "./resources/pages/TypeResult.js":
+/*!***************************************!*\
+  !*** ./resources/pages/TypeResult.js ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+var TypeResult = function TypeResult(props) {
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {// calcResult(props);
+  }, []); // const calcResult = (props) => {
+  //     console.log(props);
+  //     const data = props.location.state;
+  //     console.log(data);
+  //     const maxData = data.reduce((a, b) => {
+  //         a.point > b.point ? a : b
+  //     });
+  //     console.log(maxData);
+  // }
+
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+    className: "result",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h1", {
+      children: "\u8A3A\u65AD\u7D50\u679C"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+      className: "box box--column",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+        children: "\u3042\u306A\u305F\u306F\u2026"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "detail",
+        children: "\u611F\u60C5\u8C4A\u304B\u306A\u5BC2\u3057\u304C\u308A\u3084"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "typeName",
+        children: "\u30DC\u30CE\u30DC\u30BF\u30A4\u30D7\u3067\u3059\uFF01"
+      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      className: "box box--center",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "300",
+        viewBox: "0 0 741 693",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("g", {
+          id: "typeGraph",
+          "data-name": "typeGraph",
+          transform: "translate(-647 -1013)",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("g", {
+            id: "chimpBox",
+            "data-name": "chimpBox",
+            transform: "translate(742 1096)",
+            fill: "none",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+              d: "M32,0H212a32,32,0,0,1,32,32V212a32,32,0,0,1-32,32H32A32,32,0,0,1,0,212V32A32,32,0,0,1,32,0Z",
+              stroke: "none"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+              d: "M 32 3 C 28.08369445800781 3 24.2861328125 3.766326904296875 20.71282958984375 5.277740478515625 C 17.25987243652344 6.738204956054688 14.158203125 8.829635620117188 11.493896484375 11.493896484375 C 8.829635620117188 14.158203125 6.738204956054688 17.25987243652344 5.277740478515625 20.71282958984375 C 3.766326904296875 24.2861328125 3 28.08369445800781 3 32 L 3 212 C 3 215.9163055419922 3.766326904296875 219.7138671875 5.277740478515625 223.2871704101562 C 6.738204956054688 226.7401275634766 8.829635620117188 229.841796875 11.493896484375 232.506103515625 C 14.158203125 235.1703643798828 17.25987243652344 237.2617950439453 20.71282958984375 238.7222595214844 C 24.2861328125 240.2336730957031 28.08369445800781 241 32 241 L 212 241 C 215.9163055419922 241 219.7138671875 240.2336730957031 223.2871704101562 238.7222595214844 C 226.7401275634766 237.2617950439453 229.841796875 235.1703643798828 232.506103515625 232.506103515625 C 235.1703643798828 229.841796875 237.2617950439453 226.7401275634766 238.7222595214844 223.2871704101562 C 240.2336730957031 219.7138671875 241 215.9163055419922 241 212 L 241 32 C 241 28.08369445800781 240.2336730957031 24.2861328125 238.7222595214844 20.71282958984375 C 237.2617950439453 17.25987243652344 235.1703643798828 14.158203125 232.506103515625 11.493896484375 C 229.841796875 8.829635620117188 226.7401275634766 6.738204956054688 223.2871704101562 5.277740478515625 C 219.7138671875 3.766326904296875 215.9163055419922 3 212 3 L 32 3 M 32 0 L 212 0 C 229.673095703125 0 244 14.326904296875 244 32 L 244 212 C 244 229.673095703125 229.673095703125 244 212 244 L 32 244 C 14.326904296875 244 0 229.673095703125 0 212 L 0 32 C 0 14.326904296875 14.326904296875 0 32 0 Z",
+              stroke: "none",
+              fill: "#db5e5e"
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("g", {
+            id: "bonoboBox",
+            "data-name": "bonoboBox",
+            transform: "translate(1052 1094)",
+            fill: "none",
+            stroke: "#e6869d",
+            strokeWidth: "3",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("rect", {
+              width: "244",
+              height: "244",
+              rx: "32",
+              stroke: "none"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("rect", {
+              x: "1.5",
+              y: "1.5",
+              width: "241",
+              height: "241",
+              rx: "30.5",
+              fill: "none"
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("g", {
+            id: "oraBox",
+            "data-name": "oraBox",
+            transform: "translate(742 1381)",
+            fill: "none",
+            stroke: "#618c99",
+            strokeWidth: "3",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("rect", {
+              width: "244",
+              height: "244",
+              rx: "32",
+              stroke: "none"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("rect", {
+              x: "1.5",
+              y: "1.5",
+              width: "241",
+              height: "241",
+              rx: "30.5",
+              fill: "none"
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("g", {
+            id: "goriraBox",
+            "data-name": "goriraBox",
+            transform: "translate(1052 1381)",
+            fill: "none",
+            stroke: "#81b97a",
+            strokeWidth: "3",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("rect", {
+              width: "244",
+              height: "244",
+              rx: "32",
+              stroke: "none"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("rect", {
+              x: "1.5",
+              y: "1.5",
+              width: "241",
+              height: "241",
+              rx: "30.5",
+              fill: "none"
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("line", {
+            id: "yokoline",
+            "data-name": "yokoline",
+            x2: "510",
+            transform: "translate(765 1359)",
+            fill: "none",
+            stroke: "#707070",
+            strokeLinecap: "square",
+            strokeWidth: "3"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+            id: "tateline",
+            "data-name": "tateline",
+            d: "M0,0V512.662",
+            transform: "translate(1019 1112.338)",
+            fill: "none",
+            stroke: "#707070",
+            strokeWidth: "3"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("text", {
+            id: "feel",
+            transform: "translate(960 1048)",
+            fill: "#4a4a4a",
+            fontSize: "40",
+            fontFamily: "HiraginoSans-W6, Hiragino Sans",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+              x: "0",
+              y: "0",
+              children: "\u611F\u60C5\u7684"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("text", {
+            id: "logic",
+            transform: "translate(964 1701)",
+            fill: "#4a4a4a",
+            fontSize: "40",
+            fontFamily: "HiraginoSans-W6, Hiragino Sans",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+              x: "0",
+              y: "0",
+              children: "\u8AD6\u7406\u7684"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("text", {
+            id: "\u5B89_\u5B9A_\u5FD7_\u5411",
+            "data-name": "\u5B89 \u5B9A \u5FD7 \u5411",
+            transform: "translate(1348 1308)",
+            fill: "#4a4a4a",
+            fontSize: "40",
+            fontFamily: "HiraginoSans-W6, Hiragino Sans",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+              x: "0",
+              y: "0",
+              children: "\u5B89"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+              y: "0",
+              fontFamily: "DINCondensed-Bold, DIN Condensed",
+              fontWeight: "700"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+              x: "0",
+              y: "44",
+              children: "\u5B9A"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+              y: "44",
+              fontFamily: "DINCondensed-Bold, DIN Condensed",
+              fontWeight: "700"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+              x: "0",
+              y: "88",
+              children: "\u5FD7"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+              y: "88",
+              fontFamily: "DINCondensed-Bold, DIN Condensed",
+              fontWeight: "700"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+              x: "0",
+              y: "132",
+              children: "\u5411"
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("text", {
+            id: "\u8FFD_\u6C42_\u9054_\u6210_\u5FD7_\u5411",
+            "data-name": "\u8FFD \u6C42 \u9054 \u6210 \u5FD7 \u5411",
+            transform: "translate(647 1278)",
+            fill: "#4a4a4a",
+            fontSize: "40",
+            fontFamily: "HiraginoSans-W6, Hiragino Sans",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+              x: "0",
+              y: "0",
+              children: "\u8FFD"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+              y: "0",
+              fontFamily: "DINCondensed-Bold, DIN Condensed",
+              fontWeight: "700"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+              x: "0",
+              y: "44",
+              children: "\u6C42"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+              y: "44",
+              fontFamily: "DINCondensed-Bold, DIN Condensed",
+              fontWeight: "700"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+              x: "0",
+              y: "88",
+              children: "\u9054"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+              y: "88",
+              fontFamily: "DINCondensed-Bold, DIN Condensed",
+              fontWeight: "700"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+              x: "0",
+              y: "132",
+              children: "\u6210"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+              y: "132",
+              fontFamily: "DINCondensed-Bold, DIN Condensed",
+              fontWeight: "700"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+              x: "0",
+              y: "176",
+              children: "\u5FD7"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+              y: "176",
+              fontFamily: "DINCondensed-Bold, DIN Condensed",
+              fontWeight: "700"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+              x: "0",
+              y: "220",
+              children: "\u5411"
+            })]
+          })]
+        })
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      className: "box",
+      children: "\u30AD\u30FC\u30EF\u30FC\u30C9"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      className: "box",
+      children: "\u5F37\u307F"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      className: "box",
+      children: "\u5F31\u307F"
+    })]
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TypeResult);
 
 /***/ }),
 
@@ -2304,36 +2586,6 @@ var Questions = function Questions() {
       type_id: 3
     }]
   }, {
-    question: '言われたら一番嬉しい言葉は？',
-    answers: [{
-      answer: '「あなたのおかげで会社全体がまとまっていますよ」',
-      type_id: 3
-    }, {
-      answer: '「さすが！この仕事に関してはあなたが一番ですね！」',
-      type_id: 1
-    }, {
-      answer: '「一緒に頑張っていきましょうね」',
-      type_id: 2
-    }, {
-      answer: '「この仕事はあなたに任せるので、自分のやり方でやってください」',
-      type_id: 4
-    }]
-  }, {
-    question: '言われたら一番嫌な言葉は？',
-    answers: [{
-      answer: '「その話の結論は何？」',
-      type_id: 2
-    }, {
-      answer: '「相談してから動いてください」',
-      type_id: 1
-    }, {
-      answer: '「指示されたことだけやればいいから」',
-      type_id: 4
-    }, {
-      answer: '「あとは任せるから適当にやっておいて」',
-      type_id: 3
-    }]
-  }, {
     question: '次の4つのうち、あなたが一番好きなものは？',
     answers: [{
       answer: 'ひとりの時間',
@@ -2371,9 +2623,74 @@ var Questions = function Questions() {
       currentIndex = _useState2[0],
       setCurrentIndex = _useState2[1];
 
-  var nextQuetion = function nextQuetion() {
-    setCurrentIndex(currentIndex + 1);
+  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0),
+      _useState4 = _slicedToArray(_useState3, 2),
+      bonoboPoint = _useState4[0],
+      setBonoboPoint = _useState4[1];
+
+  var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0),
+      _useState6 = _slicedToArray(_useState5, 2),
+      chimpPoint = _useState6[0],
+      setChimpPoint = _useState6[1];
+
+  var _useState7 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0),
+      _useState8 = _slicedToArray(_useState7, 2),
+      goriraPoint = _useState8[0],
+      setGoriraPoint = _useState8[1];
+
+  var _useState9 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0),
+      _useState10 = _slicedToArray(_useState9, 2),
+      oraPoint = _useState10[0],
+      setOraPoint = _useState10[1];
+
+  var nextQuetion = function nextQuetion(type_id) {
+    if (currentIndex < questionLength - 1) {
+      console.log(type_id);
+
+      switch (type_id) {
+        case 1:
+          setChimpPoint(chimpPoint + 1);
+          break;
+
+        case 2:
+          setBonoboPoint(bonoboPoint + 1);
+          break;
+
+        case 3:
+          setGoriraPoint(goriraPoint + 1);
+          break;
+
+        case 4:
+          setOraPoint(oraPoint + 1);
+          break;
+      }
+
+      setCurrentIndex(currentIndex + 1);
+    } else {
+      switch (type_id) {
+        case 1:
+          setChimpPoint(chimpPoint + 1);
+          break;
+
+        case 2:
+          setBonoboPoint(bonoboPoint + 1);
+          break;
+
+        case 3:
+          setGoriraPoint(goriraPoint + 1);
+          break;
+
+        case 4:
+          setOraPoint(oraPoint + 1);
+          break;
+      }
+
+      console.log(chimpPoint, bonoboPoint, goriraPoint, oraPoint);
+      setTimeout(alert('result!!'), 3000);
+    }
   };
+
+  var calcResult = function calcResult() {};
 
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
@@ -2392,8 +2709,10 @@ var Questions = function Questions() {
         children: questions[currentIndex].answers.map(function (answer, index) {
           return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
             className: "answer",
-            onClick: nextQuetion,
-            children: [index, ". ", answer.answer]
+            onClick: function onClick() {
+              return nextQuetion(answer.type_id);
+            },
+            children: [index + 1, ". ", answer.answer]
           }, index);
         })
       }), "1 / 10", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {

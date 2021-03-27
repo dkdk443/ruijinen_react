@@ -1,7 +1,26 @@
 import { useState } from "react";
+import { useHistory } from 'react-router-dom';
 
 const Questions = () => {
     const questions = [
+        {
+        question: 'あなたは…',
+          answers: [
+            {answer:'状況を正確に把握し、分析すること', type_id: 4},
+            {answer: '誰よりも早く、成果を上げること', type_id: 1 },
+            {answer: '自己主張を抑えて、周囲の調和を保つこと', type_id: 3},
+            {answer: '誰とでも仲良くなること', type_id: 2 },
+          ]
+        },
+        {
+        question: 'あなたは…',
+          answers: [
+            {answer:'状況を正確に把握し、分析すること', type_id: 4},
+            {answer: '誰よりも早く、成果を上げること', type_id: 1 },
+            {answer: '自己主張を抑えて、周囲の調和を保つこと', type_id: 3},
+            {answer: '誰とでも仲良くなること', type_id: 2 },
+          ]
+        },
         {
           question: 'あなたが得意なのは？',
           answers: [
@@ -47,24 +66,6 @@ const Questions = () => {
             {answer: '正確にルーティンワークをこなすこと', type_id: 3 },
           ]
         },
-         {
-          question: '言われたら一番嬉しい言葉は？',
-          answers: [
-            {answer:'「あなたのおかげで会社全体がまとまっていますよ」', type_id: 3},
-            {answer: '「さすが！この仕事に関してはあなたが一番ですね！」', type_id: 1 },
-            {answer: '「一緒に頑張っていきましょうね」', type_id: 2},
-            {answer: '「この仕事はあなたに任せるので、自分のやり方でやってください」', type_id: 4 },
-          ]
-        },
-         {
-          question: '言われたら一番嫌な言葉は？',
-          answers: [
-            {answer:'「その話の結論は何？」', type_id: 2},
-            {answer: '「相談してから動いてください」', type_id: 1 },
-            {answer: '「指示されたことだけやればいいから」', type_id: 4},
-            {answer: '「あとは任せるから適当にやっておいて」', type_id: 3 },
-          ]
-        },
         {
           question: '次の4つのうち、あなたが一番好きなものは？',
           answers: [
@@ -84,12 +85,67 @@ const Questions = () => {
           ]
         }
     ]
+
     const questionLength = questions.length;
 
     const [currentIndex, setCurrentIndex] = useState(0);
-    const nextQuetion = () => {
-        setCurrentIndex(currentIndex + 1);
+    const [bonoboPoint, setBonoboPoint] = useState(0);
+    const [chimpPoint, setChimpPoint] = useState(0);
+    const [goriraPoint, setGoriraPoint] = useState(0);
+    const [oraPoint, setOraPoint] = useState(0);
+    const history = useHistory();
+
+    const nextQuetion = (type_id) => {
+      if (currentIndex < questionLength - 1) {
+          console.log(type_id);
+            switch (type_id) {
+                case 1:
+                    setChimpPoint(chimpPoint+1);
+                    break;
+                case 2:
+                    setBonoboPoint(bonoboPoint+1);
+                    break
+                case 3:
+                    setGoriraPoint(goriraPoint+1);
+                    break;
+                case 4:
+                    setOraPoint(oraPoint+1);
+                    break;
+            }
+          setCurrentIndex(currentIndex + 1);
+
+      } else {
+          switch (type_id) {
+                case 1:
+                    setChimpPoint(chimpPoint+1);
+                    break;
+                case 2:
+                    setBonoboPoint(bonoboPoint+1);
+                    break
+                case 3:
+                    setGoriraPoint(goriraPoint+1);
+                    break;
+                case 4:
+                    setOraPoint(oraPoint+1);
+                    break;
+            }
+          const resultData = [
+              { type: 'chimp', point: chimpPoint, type_id: 1 },
+              { type: 'bonobo', point: bonoboPoint, type_id: 2},
+              { type: 'gorira', point: goriraPoint, type_id: 3 },
+              { type: 'ora', point: oraPoint, type_id: 4 },
+          ];
+
+          history.push({
+            pathname: '/result',
+            query: { modal: true },
+              state: { data: resultData }
+        })
+
+
+        }
     }
+
 
 
     return (
@@ -106,7 +162,10 @@ const Questions = () => {
             {
                 questions[currentIndex].answers.map((answer, index) => {
                     return (
-                        <div className="answer" key={index} onClick={nextQuetion}>{index + 1}. {answer.answer}</div>
+                        <div
+                            className="answer"
+                            key={index}
+                            onClick={() => nextQuetion(answer.type_id)}>{index + 1}. {answer.answer}</div>
                     )
                 })
             }
