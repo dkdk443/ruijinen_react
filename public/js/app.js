@@ -1936,6 +1936,102 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./resources/api/typeData.js":
+/*!***********************************!*\
+  !*** ./resources/api/typeData.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var database = [{
+  id: 1,
+  type: 'チンパンジー',
+  detail: '勝ち負け重視のリーダー',
+  text: '考えるよりも即行動。やるからには何がなんでも勝ちにかかる競争・闘争タイプ。誰もやったことのないことに取り組むチャレンジ精神も旺盛ですが、仲間から評価されないとやる気をなくしてしまいます。',
+  point: 0,
+  keyword: '勝利',
+  keywords: ['積極的', '高い行動力', '競争心', '合理的', 'すばやい決断', 'リーダーシップ'],
+  keywordComment: "\u52DD\u305F\u306A\u3051\u308C\u3070\u610F\u5473\u306A\u3057",
+  typeColor: '#db5e5e',
+  good: ['スピードがある', '決断力がある', '競争心が強い', '高いコミュニケーション能力'],
+  bad: ['嫉妬心が強い', '勝つためなら手段を選ばない', '起こりっぽい'],
+  goodAts: ['リーダー役', '新規開拓', '対人交渉'],
+  notGoodAts: ['地味なルーティンワーク', '成果の見えにくい仕事', '単純作業'],
+  likes: ['勝つこと', '他人からの評判や称賛', '目に見える成果'],
+  dislikes: ['負けること', '結果に結びつかない', '理屈やルール', '否定的な評価']
+}, {
+  id: 2,
+  type: 'ボノボ',
+  detail: '感情豊かな寂しがりや',
+  text: '相手の感情に同調し、気持ちを察することが得意な共感タイプ。チーム内の人間関係のトラブル解決や、ムードメーカー的な役割を担います。また消費者の空気を敏感に感じ取り、サービス向上のアイディア立案などでも力を発揮します。',
+  point: 0,
+  keyword: '共感',
+  keywords: ['感情が豊か', '他人に共感できる', '論理より気持ち', '依存心'],
+  keywordComment: "\u5171\u611F\u3057\u3066\u3082\u3089\u3048\u306A\u304D\u3083\u5BC2\u3057\u3044",
+  typeColor: '#e6869d',
+  good: ['相手の気持ちに寄り添えること', '高いコミュニケーション力', '場の空気を明るくできる'],
+  bad: ['依存心が強い', '言動に一貫性がない'],
+  goodAts: ['接客', '職場のムードづくり', '販促物作成', '新人のフォローアップ'],
+  notGoodAts: ['責任の多い仕事', '裁量の多い仕事', '論理的思考力が求められる仕事'],
+  likes: ['雑談', '気持ちに寄り添った言葉'],
+  dislikes: ['競争', '理屈', 'ひとりぼっち']
+}, {
+  id: 3,
+  type: 'ゴリラ',
+  detail: '平和主義でちょっと小心者',
+  point: 0,
+  keyword: '調和',
+  keywordComment: "\u4E89\u3044\u3054\u3068\u306F\u5ACC\u3067\u3059",
+  keywords: ['生真面目', '仲間思い', '臆病', 'ルーティン', '物静か', '敬意', '年功序列'],
+  text: '地味で目立たないけれど、コツコツと物事をこなしていく堅実な調和タイプ。自分のことよりも家族や会社の秩序が大事で、秩序やルールを守るためには、見かけによらないパワーを発揮します。',
+  typeColor: '#81b97a',
+  tweetUrl: '',
+  good: ['真面目', '仲間思い', '優しい'],
+  bad: ['杓子定規で融通が利かない', '急な予定変更に弱い', '競争心が少ない'],
+  goodAts: ['ルーティンワーク', 'ルールの遵守・伝達', '管理業務', '会議の司会や記録係'],
+  notGoodAts: ['クリエイティブな仕事', '裁量の多い仕事', 'インパクトの必要な仕事'],
+  likes: ['安定', 'ルール', '役割分担'],
+  dislikes: ['争いごと', '競争', 'アクシデント']
+}, {
+  id: 4,
+  type: 'オランウータン',
+  detail: '職人気質のこだわりや',
+  text: 'ひとりで黙々と自分の世界に入り込む、職人気質のこだわり屋。自分の世界を邪魔されたくないので、あまり感情表現が豊かではありませんが、実は内側に熱い思いを秘めています。とにかく納得いくまで自分の世界を突き詰めます。',
+  keyword: '納得',
+  keywords: ['一匹狼', '他人との距離感（余地）', '感情を表に出さない', 'マイペース', '自分の世界が大事', '内に秘めた情熱'],
+  keywordComment: "\u7D0D\u5F97\u3067\u304D\u306A\u3044\u3068\u52D5\u304D\u307E\u305B\u3093",
+  typeColor: '#618c99',
+  good: ['高い集中力', '本質を追求する姿勢', '好きなことなら頑張れる'],
+  bad: ['頑固', '執着心が強すぎる', 'コミュニケーション力がない'],
+  goodAts: ['企画', '戦略分析', '商品開発'],
+  notGoodAts: ['チーム運営', 'ルーティンワーク', '接客'],
+  likes: ['達成', '満足感', 'ひとりの時間'],
+  dislikes: ['マニュアル', '決まり', '会議']
+}];
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  // fetch(id) {
+  //   return database
+  // },
+  find: function find(id) {
+    return database.find(function (el) {
+      return el.id === id;
+    });
+  },
+  asyncFind: function asyncFind(id, callback) {
+    setTimeout(function () {
+      callback(database.find(function (el) {
+        return el.id === id;
+      }));
+    }, 1000);
+  }
+});
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -2149,13 +2245,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var _js_components_mainHeader_MainHeader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../js/components/mainHeader/MainHeader */ "./resources/js/components/mainHeader/MainHeader.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
-/* harmony import */ var _Friends__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Friends */ "./resources/pages/Friends.js");
-/* harmony import */ var _Start__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Start */ "./resources/pages/Start.js");
-/* harmony import */ var _questions__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./questions */ "./resources/pages/questions.js");
-/* harmony import */ var _TypeResult__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./TypeResult */ "./resources/pages/TypeResult.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _Friends__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Friends */ "./resources/pages/Friends.js");
+/* harmony import */ var _Start__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Start */ "./resources/pages/Start.js");
+/* harmony import */ var _questions__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./questions */ "./resources/pages/questions.js");
+/* harmony import */ var _TypeResult__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./TypeResult */ "./resources/pages/TypeResult.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
 
@@ -2170,26 +2265,26 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function App() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.Fragment, {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.BrowserRouter, {
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.Fragment, {
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_9__.Switch, {
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_9__.Route, {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.Fragment, {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.BrowserRouter, {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.Fragment, {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Switch, {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Route, {
             path: "/",
             exact: true,
-            component: _Start__WEBPACK_IMPORTED_MODULE_4__.default
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_9__.Route, {
+            component: _Start__WEBPACK_IMPORTED_MODULE_5__.default
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Route, {
             path: "/questions",
             exact: true,
-            component: _questions__WEBPACK_IMPORTED_MODULE_5__.default
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_9__.Route, {
+            component: _questions__WEBPACK_IMPORTED_MODULE_6__.default
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Route, {
             path: "/friends",
             exact: true,
-            component: _Friends__WEBPACK_IMPORTED_MODULE_3__.default
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_9__.Route, {
+            component: _Friends__WEBPACK_IMPORTED_MODULE_4__.default
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Route, {
             path: "/result",
             exact: true,
-            component: _TypeResult__WEBPACK_IMPORTED_MODULE_6__.default
+            component: _TypeResult__WEBPACK_IMPORTED_MODULE_7__.default
           })]
         })
       })
@@ -2200,7 +2295,7 @@ function App() {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
 
 if (document.getElementById('root')) {
-  react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(App, {}), document.getElementById('root'));
+  react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(App, {}), document.getElementById('root'));
 }
 
 /***/ }),
@@ -2217,74 +2312,101 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _api_typeData__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../api/typeData */ "./resources/api/typeData.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
 
 
 
 
 var TypeResult = function TypeResult(props) {
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {// calcResult(props);
-  }, []); // const calcResult = (props) => {
-  //     console.log(props);
-  //     const data = props.location.state;
-  //     console.log(data);
-  //     const maxData = data.reduce((a, b) => {
-  //         a.point > b.point ? a : b
-  //     });
-  //     console.log(maxData);
-  // }
+  // タイプ診断
+  var sortByPoint = function sortByPoint(props) {
+    var data = props.location.state.data;
+    data.sort(function (a, b) {
+      return a.point - b.point;
+    });
+    console.log(data);
+    return data;
+  };
 
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+  var firstType = function firstType(props) {
+    var data = props.location.state.data;
+    data.sort(function (a, b) {
+      return a.point - b.point;
+    });
+    var firstType = data[3];
+    var typeDetailData = _api_typeData__WEBPACK_IMPORTED_MODULE_2__.default.find(firstType.type_id); // console.log(typeDetailData);
+
+    return typeDetailData;
+  };
+
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
     className: "result",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h1", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
       children: "\u8A3A\u65AD\u7D50\u679C"
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
       className: "box box--column",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
         children: "\u3042\u306A\u305F\u306F\u2026"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
         className: "detail",
-        children: "\u611F\u60C5\u8C4A\u304B\u306A\u5BC2\u3057\u304C\u308A\u3084"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        className: "typeName",
-        children: "\u30DC\u30CE\u30DC\u30BF\u30A4\u30D7\u3067\u3059\uFF01"
+        children: firstType(props).detail
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
+          className: "typeName",
+          children: firstType(props).type
+        }), "\u30BF\u30A4\u30D7\u3067\u3059\uFF01"]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+        className: "typeComment",
+        children: ["~", firstType(props).keywordComment, "~"]
       })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+      className: "box box--column",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+        className: "box__content",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+          children: firstType(props).text
+        })
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
       className: "box box--center",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("svg", {
         xmlns: "http://www.w3.org/2000/svg",
         width: "300",
         viewBox: "0 0 741 693",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("g", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("g", {
           id: "typeGraph",
           "data-name": "typeGraph",
           transform: "translate(-647 -1013)",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("g", {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("g", {
             id: "chimpBox",
             "data-name": "chimpBox",
             transform: "translate(742 1096)",
-            fill: "none",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+            fill: firstType(props).id === 1 ? "#db5e5e" : "none",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("path", {
               d: "M32,0H212a32,32,0,0,1,32,32V212a32,32,0,0,1-32,32H32A32,32,0,0,1,0,212V32A32,32,0,0,1,32,0Z",
               stroke: "none"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("path", {
               d: "M 32 3 C 28.08369445800781 3 24.2861328125 3.766326904296875 20.71282958984375 5.277740478515625 C 17.25987243652344 6.738204956054688 14.158203125 8.829635620117188 11.493896484375 11.493896484375 C 8.829635620117188 14.158203125 6.738204956054688 17.25987243652344 5.277740478515625 20.71282958984375 C 3.766326904296875 24.2861328125 3 28.08369445800781 3 32 L 3 212 C 3 215.9163055419922 3.766326904296875 219.7138671875 5.277740478515625 223.2871704101562 C 6.738204956054688 226.7401275634766 8.829635620117188 229.841796875 11.493896484375 232.506103515625 C 14.158203125 235.1703643798828 17.25987243652344 237.2617950439453 20.71282958984375 238.7222595214844 C 24.2861328125 240.2336730957031 28.08369445800781 241 32 241 L 212 241 C 215.9163055419922 241 219.7138671875 240.2336730957031 223.2871704101562 238.7222595214844 C 226.7401275634766 237.2617950439453 229.841796875 235.1703643798828 232.506103515625 232.506103515625 C 235.1703643798828 229.841796875 237.2617950439453 226.7401275634766 238.7222595214844 223.2871704101562 C 240.2336730957031 219.7138671875 241 215.9163055419922 241 212 L 241 32 C 241 28.08369445800781 240.2336730957031 24.2861328125 238.7222595214844 20.71282958984375 C 237.2617950439453 17.25987243652344 235.1703643798828 14.158203125 232.506103515625 11.493896484375 C 229.841796875 8.829635620117188 226.7401275634766 6.738204956054688 223.2871704101562 5.277740478515625 C 219.7138671875 3.766326904296875 215.9163055419922 3 212 3 L 32 3 M 32 0 L 212 0 C 229.673095703125 0 244 14.326904296875 244 32 L 244 212 C 244 229.673095703125 229.673095703125 244 212 244 L 32 244 C 14.326904296875 244 0 229.673095703125 0 212 L 0 32 C 0 14.326904296875 14.326904296875 0 32 0 Z",
               stroke: "none",
               fill: "#db5e5e"
             })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("g", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("g", {
             id: "bonoboBox",
             "data-name": "bonoboBox",
             transform: "translate(1052 1094)",
-            fill: "none",
+            fill: firstType(props).id === 2 ? "#db5e5e" : "none",
             stroke: "#e6869d",
             strokeWidth: "3",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("rect", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("rect", {
               width: "244",
               height: "244",
               rx: "32",
               stroke: "none"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("rect", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("rect", {
               x: "1.5",
               y: "1.5",
               width: "241",
@@ -2292,19 +2414,19 @@ var TypeResult = function TypeResult(props) {
               rx: "30.5",
               fill: "none"
             })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("g", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("g", {
             id: "oraBox",
             "data-name": "oraBox",
             transform: "translate(742 1381)",
-            fill: "none",
+            fill: firstType(props).id === 4 ? "#618c99" : "none",
             stroke: "#618c99",
             strokeWidth: "3",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("rect", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("rect", {
               width: "244",
               height: "244",
               rx: "32",
               stroke: "none"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("rect", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("rect", {
               x: "1.5",
               y: "1.5",
               width: "241",
@@ -2312,19 +2434,19 @@ var TypeResult = function TypeResult(props) {
               rx: "30.5",
               fill: "none"
             })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("g", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("g", {
             id: "goriraBox",
             "data-name": "goriraBox",
             transform: "translate(1052 1381)",
-            fill: "none",
+            fill: firstType(props).id === 3 ? "#81b97a" : "none",
             stroke: "#81b97a",
             strokeWidth: "3",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("rect", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("rect", {
               width: "244",
               height: "244",
               rx: "32",
               stroke: "none"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("rect", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("rect", {
               x: "1.5",
               y: "1.5",
               width: "241",
@@ -2332,7 +2454,7 @@ var TypeResult = function TypeResult(props) {
               rx: "30.5",
               fill: "none"
             })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("line", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("line", {
             id: "yokoline",
             "data-name": "yokoline",
             x2: "510",
@@ -2341,7 +2463,7 @@ var TypeResult = function TypeResult(props) {
             stroke: "#707070",
             strokeLinecap: "square",
             strokeWidth: "3"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("path", {
             id: "tateline",
             "data-name": "tateline",
             d: "M0,0V512.662",
@@ -2349,112 +2471,112 @@ var TypeResult = function TypeResult(props) {
             fill: "none",
             stroke: "#707070",
             strokeWidth: "3"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("text", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("text", {
             id: "feel",
             transform: "translate(960 1048)",
             fill: "#4a4a4a",
             fontSize: "40",
             fontFamily: "HiraginoSans-W6, Hiragino Sans",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("tspan", {
               x: "0",
               y: "0",
               children: "\u611F\u60C5\u7684"
             })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("text", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("text", {
             id: "logic",
             transform: "translate(964 1701)",
             fill: "#4a4a4a",
             fontSize: "40",
             fontFamily: "HiraginoSans-W6, Hiragino Sans",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("tspan", {
               x: "0",
               y: "0",
               children: "\u8AD6\u7406\u7684"
             })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("text", {
-            id: "\u5B89_\u5B9A_\u5FD7_\u5411",
-            "data-name": "\u5B89 \u5B9A \u5FD7 \u5411",
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("text", {
+            id: "stable",
+            "data-name": "\u5B89\u5B9A\u5FD7\u5411",
             transform: "translate(1348 1308)",
             fill: "#4a4a4a",
             fontSize: "40",
             fontFamily: "HiraginoSans-W6, Hiragino Sans",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("tspan", {
               x: "0",
               y: "0",
               children: "\u5B89"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("tspan", {
               y: "0",
               fontFamily: "DINCondensed-Bold, DIN Condensed",
               fontWeight: "700"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("tspan", {
               x: "0",
               y: "44",
               children: "\u5B9A"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("tspan", {
               y: "44",
               fontFamily: "DINCondensed-Bold, DIN Condensed",
               fontWeight: "700"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("tspan", {
               x: "0",
               y: "88",
               children: "\u5FD7"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("tspan", {
               y: "88",
               fontFamily: "DINCondensed-Bold, DIN Condensed",
               fontWeight: "700"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("tspan", {
               x: "0",
               y: "132",
               children: "\u5411"
             })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("text", {
-            id: "\u8FFD_\u6C42_\u9054_\u6210_\u5FD7_\u5411",
-            "data-name": "\u8FFD \u6C42 \u9054 \u6210 \u5FD7 \u5411",
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("text", {
+            id: "challengeable",
+            "data-name": "\u8FFD\u6C42\u9054\u6210\u5FD7\u5411",
             transform: "translate(647 1278)",
             fill: "#4a4a4a",
             fontSize: "40",
             fontFamily: "HiraginoSans-W6, Hiragino Sans",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("tspan", {
               x: "0",
               y: "0",
               children: "\u8FFD"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("tspan", {
               y: "0",
               fontFamily: "DINCondensed-Bold, DIN Condensed",
               fontWeight: "700"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("tspan", {
               x: "0",
               y: "44",
               children: "\u6C42"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("tspan", {
               y: "44",
               fontFamily: "DINCondensed-Bold, DIN Condensed",
               fontWeight: "700"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("tspan", {
               x: "0",
               y: "88",
               children: "\u9054"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("tspan", {
               y: "88",
               fontFamily: "DINCondensed-Bold, DIN Condensed",
               fontWeight: "700"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("tspan", {
               x: "0",
               y: "132",
               children: "\u6210"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("tspan", {
               y: "132",
               fontFamily: "DINCondensed-Bold, DIN Condensed",
               fontWeight: "700"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("tspan", {
               x: "0",
               y: "176",
               children: "\u5FD7"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("tspan", {
               y: "176",
               fontFamily: "DINCondensed-Bold, DIN Condensed",
               fontWeight: "700"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("tspan", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("tspan", {
               x: "0",
               y: "220",
               children: "\u5411"
@@ -2462,15 +2584,93 @@ var TypeResult = function TypeResult(props) {
           })]
         })
       })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-      className: "box",
-      children: "\u30AD\u30FC\u30EF\u30FC\u30C9"
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-      className: "box",
-      children: "\u5F37\u307F"
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-      className: "box",
-      children: "\u5F31\u307F"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+      className: "box box--column",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
+        children: "\u30AD\u30FC\u30EF\u30FC\u30C9"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+        className: "box__content",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          className: "keyword",
+          children: firstType(props).keyword
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          className: "keywords",
+          children: firstType(props).keywords.map(function (k, i) {
+            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("li", {
+              children: [k, "/ "]
+            }, i);
+          })
+        })]
+      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+      className: "box box--column",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
+        children: "\u5F37\u307F"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+        className: "box__content",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          className: "list",
+          children: firstType(props).good.map(function (k, i) {
+            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+              children: k
+            }, i);
+          })
+        })
+      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+      className: "box box--column",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
+        children: "\u5F31\u307F"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+        className: "box__content",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          className: "list",
+          children: firstType(props).bad.map(function (k, i) {
+            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+              children: k
+            }, i);
+          })
+        })
+      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+      className: "box box--column",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
+        children: "\u5F97\u610F\u306A\u3053\u3068"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+        className: "box__content",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          className: "list",
+          children: firstType(props).goodAts.map(function (k, i) {
+            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+              children: k
+            }, i);
+          })
+        })
+      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+      className: "box box--column",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
+        children: "\u82E6\u624B\u306A\u3053\u3068"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+        className: "box__content",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          className: "list",
+          children: firstType(props).notGoodAts.map(function (k, i) {
+            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+              children: k
+            }, i);
+          })
+        })
+      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+      className: "links",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
+        to: "/",
+        children: "Top\u306B\u623B\u308B"
+      }), " /  ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
+        to: "/questions",
+        children: "\u3082\u3046\u4E00\u5EA6\u3084\u308B"
+      })]
     })]
   });
 };
@@ -2491,7 +2691,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -2509,8 +2710,39 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
+
 var Questions = function Questions() {
   var questions = [{
+    question: 'あなたは…',
+    answers: [{
+      answer: '状況を正確に把握し、分析すること',
+      type_id: 4
+    }, {
+      answer: '誰よりも早く、成果を上げること',
+      type_id: 1
+    }, {
+      answer: '自己主張を抑えて、周囲の調和を保つこと',
+      type_id: 3
+    }, {
+      answer: '誰とでも仲良くなること',
+      type_id: 2
+    }]
+  }, {
+    question: 'あなたは…',
+    answers: [{
+      answer: '状況を正確に把握し、分析すること',
+      type_id: 4
+    }, {
+      answer: '誰よりも早く、成果を上げること',
+      type_id: 1
+    }, {
+      answer: '自己主張を抑えて、周囲の調和を保つこと',
+      type_id: 3
+    }, {
+      answer: '誰とでも仲良くなること',
+      type_id: 2
+    }]
+  }, {
     question: 'あなたが得意なのは？',
     answers: [{
       answer: '状況を正確に把握し、分析すること',
@@ -2643,6 +2875,8 @@ var Questions = function Questions() {
       oraPoint = _useState10[0],
       setOraPoint = _useState10[1];
 
+  var history = (0,react_router_dom__WEBPACK_IMPORTED_MODULE_1__.useHistory)();
+
   var nextQuetion = function nextQuetion(type_id) {
     if (currentIndex < questionLength - 1) {
       console.log(type_id);
@@ -2685,29 +2919,51 @@ var Questions = function Questions() {
           break;
       }
 
-      console.log(chimpPoint, bonoboPoint, goriraPoint, oraPoint);
-      setTimeout(alert('result!!'), 3000);
+      var resultData = [{
+        type: 'chimp',
+        point: chimpPoint,
+        type_id: 1
+      }, {
+        type: 'bonobo',
+        point: bonoboPoint,
+        type_id: 2
+      }, {
+        type: 'gorira',
+        point: goriraPoint,
+        type_id: 3
+      }, {
+        type: 'ora',
+        point: oraPoint,
+        type_id: 4
+      }];
+      history.push({
+        pathname: '/result',
+        query: {
+          modal: true
+        },
+        state: {
+          data: resultData
+        }
+      });
     }
   };
 
-  var calcResult = function calcResult() {};
-
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.Fragment, {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
       className: "questions",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
         className: "question",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
           className: "question__index",
           children: ["Q. ", currentIndex + 1]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
           className: "question__content",
           children: questions[currentIndex].question
         })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
         className: "answers",
         children: questions[currentIndex].answers.map(function (answer, index) {
-          return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
             className: "answer",
             onClick: function onClick() {
               return nextQuetion(answer.type_id);
@@ -2715,9 +2971,9 @@ var Questions = function Questions() {
             children: [index + 1, ". ", answer.answer]
           }, index);
         })
-      }), "1 / 10", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      }), "1 / 10", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
         className: "gage",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {})
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {})
       })]
     })
   });

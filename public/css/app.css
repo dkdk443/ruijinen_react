@@ -127,6 +127,10 @@
   margin-bottom: 12px;
 }
 
+.question__content {
+  width: 400px;
+}
+
 .answers {
   margin-bottom: 40px;
 }
@@ -177,10 +181,22 @@
 .result .box {
   border: 1px solid #e8e8e8;
   border-radius: 8px;
-  min-width: 400px;
+  width: 400px;
   padding: 20px;
-  margin: 30px;
+  margin: 18px;
   display: flex;
+}
+
+.result .box .keyword {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.result .box .keywords {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .result .box--center {
@@ -191,8 +207,14 @@
   flex-direction: column;
 }
 
+.result .box h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .result .box p {
   font-size: 12px;
+  margin: 0;
 }
 
 .result .box .detail {
@@ -201,6 +223,15 @@
 
 .result .box .typeName {
   font-size: 30px;
+}
+
+.result .box .typeComment {
+  color: #666565;
+}
+
+.result .links {
+  padding: 20px;
+  color: #a2a2a2;
 }
 
 /*!
