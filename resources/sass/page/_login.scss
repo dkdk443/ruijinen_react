@@ -1,0 +1,76 @@
+h1 {
+    font-size: 20px;
+}
+
+.login {
+    background-color: $main-color;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    h1 {
+        font-size: 22px;
+        text-align: center;
+        margin: 24px 0;
+    }
+    h2 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 12px;
+    }
+    .content {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 600px;
+    width: 400px;
+    border-radius: 12px;
+    padding: 32px;
+    .snsButtons {
+        margin-bottom: 24px;
+    }
+    .snsButton {
+        width: 300px;
+        height: 40px;
+        text-align:center;
+        color: white;
+        border-radius: 8px;
+        line-height: 40px;
+        margin: 0 auto 12px;
+        &--google {
+            background-color: #4285F4;
+        }
+        &--twitter {
+            background-color: #1DA1F2;
+        }
+        &--line {
+            background-color: #00B900;
+        }
+    }
+    .mail {
+        margin: 0 auto;
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input {
+            border: 1px solid rgb(201, 201, 201);
+            padding: 8px;
+            border-radius: 8px;
+            width: 300px;
+            margin: 0 auto 12px;
+        }
+        button {
+            background-color: $main-color;
+            color: #fff;
+            height: 40px;
+            border-radius: 40px;
+            width: 300px;
+            margin: 0 auto;
+        }
+    }
+
+}
+}
