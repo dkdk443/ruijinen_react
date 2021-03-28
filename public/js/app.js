@@ -2256,32 +2256,37 @@ var Register = function Register() {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
       className: "content",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h1", {
-        children: "\u30ED\u30B0\u30A4\u30F3"
+        children: "\u65B0\u898F\u767B\u9332"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
         className: "sns",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h2", {
-          children: "SNS\u3067\u30ED\u30B0\u30A4\u30F3"
+          children: "SNS\u3067\u767B\u9332"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
           className: "snsButtons",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
             className: "snsButton snsButton--google",
-            children: "Google\u3067\u30ED\u30B0\u30A4\u30F3"
+            children: "Google\u3067\u65B0\u898F\u767B\u9332"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
             className: "snsButton snsButton--twitter",
-            children: "Twitter\u3067\u30ED\u30B0\u30A4\u30F3"
+            children: "Twitter\u3067\u65B0\u898F\u767B\u9332"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
             className: "snsButton snsButton--line",
-            children: "LINE\u3067\u30ED\u30B0\u30A4\u30F3"
+            children: "LINE\u3067\u65B0\u898F\u767B\u9332"
           })]
         })]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h2", {
-        children: "\u30E1\u30FC\u30EB\u30A2\u30C9\u30EC\u30B9\u3067\u30ED\u30B0\u30A4\u30F3"
+        children: "\u30E1\u30FC\u30EB\u30A2\u30C9\u30EC\u30B9\u3067\u767B\u9332"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
         className: "mail",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
           action: "",
           method: "post",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+            type: "text",
+            name: "",
+            id: "",
+            placeholder: "\u30CB\u30C3\u30AF\u30CD\u30FC\u30E0"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
             type: "email",
             name: "",
             id: "",
@@ -2293,7 +2298,7 @@ var Register = function Register() {
             placeholder: "\u30D1\u30B9\u30EF\u30FC\u30C9"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
             type: "submit",
-            children: "\u30ED\u30B0\u30A4\u30F3"
+            children: "\u65B0\u898F\u767B\u9332"
           })]
         })
       })]
